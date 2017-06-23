@@ -1,86 +1,155 @@
-*Unit 1*(Lesson 3) Intro to the Web
+<!Dcotype html>
+<html>
+    <head>
+        <title> Don's Notes</title>
+    </head>
+    <body>
+        <h1>Unit 1 (Lesson 3) Intro to the Web</h1>
+        
+        <b>Intro</b>
+        <p>-The Web(What it is, wWhat it looks like, How major pieces fit together)</p>
+        <p>-HTML(Main document type of the web)</p>
+        <p>-URLS(How you refer to documents on the web)</p>
+        <p>-HTTP(The protocol that unites the web, that the web runs on)</p>
+        <p>-Web Applications(WHat they are, how they fit into the big picture)</p>
 
--The Web(What it is, wWhat it looks like, How major pieces fit together)
--HTML(Main document type of the web)
--URLS(How you refer to documents on the web)
--HTTP(The protocol that unites the web, that the web runs on)
--Web Applications(WHat they are, how they fit into the big picture)
+        <b>The Web</b>
+        <p-World Wide Web is a collection of HTML documents></p>
+        <p>-These documents are made of HTML(Hyper Text Mark-Up Language)</p>
+        <p>-The links between the pages are called Hyperlinks (or Links)</p>
+        <p>-The web was created in the early 1990's and has 30 Billion pages</p>
 
-***The Web***
--World Wide Web is a collection of HTML documents
--These documents are made of HTML(Hyper Text Mark-Up Language)
--The links between the pages are called Hyperlinks (or Links)
--The web was created in the early 1990's and has 30 Billion pages
+        <b>*Types of files that can be found on the web are:*</b>
+        <ul>
+            <li>-Plain text</li>
+            <li>-HTML</li>
+            <li>-Images</li>
+            <li>-Videos</li>
+            <li>-Music</li>
+        </ul>
+        
+        <b>*Components of the Web*</b>
+        <p>-Your browser makes requests via the Internet to servers.</p>
+        <p>-The requests are using a protocol called HTTP(Hyper-Text Transfer Protocol)</p>
+        <p>-And the servers respond with files that the browser displays.</p>
+        <p>-These servers are used to host files intead of browsing the files</p>
+        <p>-The HTTP protocol is a protocol the browser uses to communicate with the servers</p>
 
-*Types of files that can be found on the web are:*
--Plain text
--HTML
--Images
--Videos
--Music
+        <ul>
+            <li><b>*HTTP</b></li>
+            <p>-The main protocol of the web</p>
+            <li><b>*Servers*</b></li>
+            <p>-Computers that host the files that make up the web</p>
+            <li><b>*Internet*</b></li>
+            <p>-The world's largest computer network</p>
+            <li><b>*Browser*</b></li>
+            <p>-A program that runs on your computer to display files found on the web</p>
+        </ul>
 
-*Components of the Web*
--Your browser makes requests via the Internet to servers.
--The requests are using a protocol called HTTP(Hyper-Text Transfer Protocol)
--And the servers respond with files that the browser displays.
--These servers are used to host files intead of browsing the files
--The HTTP protocol is a protocol the browser uses to communicate with the servers
+        <h1>Unit 2 (Lesson 4)</h1>
+
+        <b>HTML</b>
+        <p>-Hyper-Text Mark-Up Language</p>
+        <p>-HTML is made of content(Content you see)</p>
+        <p>--Mark-up (what it looks like)</p>
+        <p>--References to other documents (i.e. images, videos, etc)</p>
+        <p>--Links to other pages</p>
+
+        <p>-Html Mark-up is made up of tags</p>
+        <p>-Tags are structure like (<opening tag> conntent </closing tag> and everything from the opening and closing tag is the element</p>
+        <p>-Bold tag <b></b>-stands for bold: <b>anything between the bold tag appears bold</b></p>
+        <p>-em tag <em></em>-stands for emphasis-Makes Italics:<em>anything between the bold tag appears italicised</em></p>
+
+        <b>Ambiguity</b>
+
+        <p>-Ambiguity is being open to </p>
+        <p>-Computers are "stupid" in the sense that Computers can't make a decision or and inference unless you tell it to. </p>
+        <p>-Programming languages are designed to limit abiguity</p>
+
+        <b>Missing a closing tag</b>
+        <p>-If you miss a closing tag everything after the opening tag will be effected by the elements commands or properties</p>
+        <p>-I.E hello my namd is <b> Don SMitty Weberben Jegermen Jetsen</b></p>
+
+        <b>HTML Attributes</b>
+
+        <p>-<tag attr="Value"> content</tag></p>
+        <p>-Attributes have a value</p>
+        <p>-A tag can have multiple attributes</p>
+        <p>-I.E achor tag-<a> anchors are for making links</a></p>
+        <p>-I.E href is an attribute I.E <a href="htttps://www.facebook.com">blah</a></p>
+
+        <b>Image</b>
+
+        <p>-Image tag-<img></p>
+        <p>-Image tag has an attribute called src which stands for source</p>
+        <p>-I.E <img src"http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg"></p>
+        <p>-Image tags also have an attribute called alt(alternate)- which is meant to replace an image that has a broken link with text</p>
+        <p>-I.E <img src="http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg" alt="Image of a Heart"></p>
+        <p>-Images don't have a closing tag</p>
+        <p>-Tags with no closing tags are called Void Tags, Void tags have no content, because they have no content, they don't need a closing tag.</p>
+        
+        <p>-It's Okay to forget. There are resources such as w3 school and MDN.</p>
+
+        <b>Line Breaks</b>
+        <p>-If you want text that is too long, you use a line break <br> tag like this <p> this is how you make <br> a line break tage</p></p>
+        <p>-<br> tags are Void Tags</p>
+        <p>-Another way to make line breaks are to use <p>Multiple</p> <p>Tags</p></p>
+        <p>-the <P> tag stands for Paragraph. </p>
+        <p>-Between the opening and closing tag, it will render as a paragraph</p>
+
+        <b>Inline vs Block Elements</b>
+        
+        <p>-Why do we have two different ways of making line breaks?</p>
+        <p>-<br>=Inline. The BR tag is just ending a line and moving to the next line <p>=Block. The P tag is being wrapped by an invisible box that can have an height & width</p>
+        <p>-Inline elements: <br>, <em></em>, <img></p>
+        <p>-Block element: <p></p></p>
+        
+        <p>-container elements: elements that do nothing, buthave content inside them.</p>
+
+        <b>Span & Div elements</b>
+        
+        <p>-<span></span> is an inline element</p>
+        <p>-<div></div> is a block element</p>
+
+        <b>Html Structure</b>
+        
+        <p>-<!DOCTYPE html>
+            -<html>-wraps body and head
+                <head>-contains metadata
+                    <title> appears in top of browser window</title>
+                </head>
+                <body>
+                    displays content that will be seen in the web page
+                </body>
+            </html></p>
+        <p>-writing code that people can easily read is a very important aspect to structure of an html document</p>
 
 
-*HTTP*
--The main protocol of the web
-*Servers*
--Computers that host the files that make up the web
-*Internet*
--The world's largest computer network
-*Browser*
--A program that runs on your computer to display files found on the web
-
-Unit 2 (Lesson 4)
-
-***HTML***
--Hyper-Text Mark-Up Language
--HTML is made of content(Content you see)
---Mark-up (what it looks like)
---References to other documents (i.e. images, videos, etc)
---Links to other pages
-
--Html Mark-up is made up of tags
--Tags are structure like (<opening tag> conntent </closing tag> and everything from the opening and closing tag is the element
--Bold tag <b></b>-stands for bold: <b>anything between the bold tag appears bold</b>
--em tag <em></em>-stands for emphasis-Makes Italics:<em>anything between the bold tag appears italicised</em>
-
-***Ambiguity***
-
--Ambiguity is being open to 
--Computers are "stupid" in the sense that Computers can't make a decision or and inference unless you tell it to. 
--Programming languages are designed to limit abiguity
-
-***Missing a closing tag***
--If you miss a closing tag everything after the opening tag will be effected by the elements commands or properties
--I.E hello my namd is <b> Don SMitty Weberben Jegermen Jetsen
-
-***HTML Attributes***
-
--<tag attr="Value"> content</tag>
--Attributes have a value
--A tag can have multiple attributes
--I.E achor tag-<a> anchors are for making links</a>
--I.E href is an attribute I.E <a href="htttps://www.facebook.com">blah</a>
-
-***Image***
-
--Image tag-<img>
--Image tag has an attribute called src which stands for source
--I.E <img src"http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg">
--Image tags also have an attribute called alt(alternate)- which is meant to replace an image that has a broken link with text
--I.E <img src="http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg" alt="Image of a Heart">
--Images don't have a closing tag
--Tags with no closing tags are called Void Tags, Void tags have no content, because they have no content, they don't need a closing tag.
-
--It's Okay to forget. There are resources such as w3 school and MDN.
-
-***Line Breaks***
--If you want text that is too long, you use a line break <br> tag like this <p> this is how you make <br> a line break tage</p>
--<br> tags are Void Tags
--Another way to make line breaks are to use <p>Multiple</p> <p>Tags</p>
+        <b>Summary</b>
+        
+        <p><b>--You've learned a lot so far! Let's recap some of the big ideas:</b></p>
+        
+        <p><b>--The World Wide Web</b></p>
+        <p>-The web is composed largely of HTML documents. HTML stands for HyperText Markup Language and is the language the browsers use to interpret web pages. The components of the web include the client (your computer and browser), the Internet, and servers. The client and servers interact through something called the Hypertext Transfer Protocol (HTTP).</p>
+        
+        
+        <b>--Basic HTML Elements</b>
+        <p>-HTML elements are what we use to tell a web browser how to display content on a web page.</p>
+        <p>-Most HTML elements consist of an opening and a closing tag with some content between them.</p> 
+        
+        <p>-<b>text</b> Makes the 'text' content bold</p> 
+        <p>-<em>text</em> Makes the 'text' content italic</p>
+        
+        <b>--HTML Attributes</b>
+        <p>-Some elements accept additional values called attributes in their opening tags. Attributes provide additional information to the browser. For example, the anchor tag takes an attribute called href that defines a URL to link to.</p>
+        
+        <p>-<a href="url">link</a> Creates a hyperlink to the href attribute value url and names it link</p>
+        <p>-<img src="url" alt="text"> Displays the image hosted at the src attribute value "url" (this can also be a path to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.</p>
+        
+        <b>--More HTML Elements</b>
+        <p>-<p>text</p> Defines a paragraph. The content of the <p> element is in a "box"</p> 
+        <p>-<br> Creates a line break</p> 
+        <p>-<div>content</div> Creates a "box" container element</p> 
+        <p>-<span>content</span> Creates an "inline" container element</p>
+    </body>
+</html>
