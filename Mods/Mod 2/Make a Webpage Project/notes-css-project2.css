@@ -1,0 +1,539 @@
+/** {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: white;
+    border-color: #000;
+    border-style: dotted;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 15px
+}
+.title {
+    background-color: #a4cad2;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.3em;
+    font-size: 150px;
+    text-shadow:
+    -1px -1px 0  #fff,
+    1px -1px 0  #fff,
+    -1px 1px 0  #fff,
+    4px 7px 0  #fff;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
+    margin: 10px;
+    font-family: 'Lobster', helvetica, arial;
+}
+.toc-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:
+    -1px -1px 0  #000,
+     1px -1px 0  #000,
+    -1px 1px 0  #000,
+     3px 5px 0  #000;
+    font-family: 'Pacifico', cursive;
+}
+.toc-contents {
+    font-family: 'Handlee', cursive;
+}
+.toc {
+    background-color: #a4cadf;
+    color: black;
+    padding:5px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    
+}
+
+.mod-1 {
+    background-color: rgba(41, 72, 255, .6);
+    border-radius: 20px;
+    color: white;
+    font-size:200%;
+    padding: 10px;
+    margin: 15px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 10px 10px 5px black;
+    font-family: 'Pacifico', cursive;
+}
+
+.title-mod1 {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 7px 0  #313c48;
+}
+
+.mod1-lesson3 {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+
+.title-intro {
+    color: #294863;
+}
+
+.intro {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+
+.intro-paragraph {
+    text-align: center;
+}
+
+.the-web {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+
+.file-types {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;;
+}
+
+.web-components {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+
+.lesson4-intro {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.html {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.ambiguity {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.missing-colon {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.html-attributes {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.image {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+img {
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #313c5a;
+}
+.line-breaks {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.inline-block {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.span-div {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.html-structure {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.mod1-title-summary {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.mod1-summary-description {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.basic-html {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.html-attributes-2 {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.more-html {
+    background-color: #a4cadf;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.mod2 {
+    background-color: rgba(41, 150, 255, .6);
+    border-radius: 20px;
+    color: white;
+    font-size: 200%;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 50px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 10px 10px 5px black;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+}
+.title-mod2 {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 7px 0  #313c48;
+}
+.lesson1-title-mod2 {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.mod2-intro {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.title-lesson2 {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.mod2-thedom {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.title-summary-thedom-mod2 {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.summary-text-mod2 {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.lesson4-css {
+   text-align: center;
+   text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.css-lesson4-mod2 {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.title-css-summary {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.css-summary-body {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.cont-of-css-title {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.cont-css-body {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    list-style-position: inside;
+    padding:5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+    font-family: 'Handlee', cursive;
+}
+.box-size-title {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  #313c48,
+    1px -1px 0  #313c48,
+    -1px 1px 0  #313c48,
+    4px 4px 0  #313c48;
+}
+.box-sizing-body {
+    background-color: #a4caf0;
+    color: black;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    list-style-position: inside;
+    padding:5px;
+    margin: 15px;
+    border-radius: 10px;
+    border-color: #313c48;
+    border-style: solid;
+    box-shadow: 8px 8px 8px #313c48;
+}

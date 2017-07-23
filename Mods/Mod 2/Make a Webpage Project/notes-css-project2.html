@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <link rel="stylesheet" href="notes-css-project2.css">
+        <title> Don's Notes</title>
+    </head>
+    <body>
+        
+        <h1 class="title">Don's Notes</h1>
+        
+        <div class="toc">
+            <h1 class="toc-title">Table of Contentss</h1>
+            <div class="toc-contents">
+                <ol>
+                    <li><a href="#mod-1">Mod 1:Intro to the web & HTML</a>
+                        <ul>
+                            <li><a href="#mod1-lesson3">Lesson 3: Intro to the Web</a>
+                                <ul>
+                                    <li><a href="#intro">Intro</a></li>
+                                    <li><a href="#the-web">The Web</a></li>
+                                    <li><a href="#file-types">File Types of the Web</a></li>
+                                    <li><a href="#web-components">Components of the Web</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#mod1-lesson4">Lesson 4: Intro to HTML</a>
+                                <ul>
+                                    <li><a href="#html">HTML</a></li>
+                                    <li><a href="#ambiguity">Ambiguity</a></li>
+                                    <li><a href="#missing-colon">Missing Colon</a></li>
+                                    <li><a href="#html-attributes">HTML Attributes</a></li>
+                                    <li><a href="#image">Image</a></li>
+                                    <li><a href="#line-breaks">Line Breaks</a></li>
+                                    <li><a href="#inline-block">Inline vs. Block Elements</a></li>
+                                    <li><a href="#span-div">Span & Div Elements</a></li>
+                                    <li><a href="#html-structure">HTML Structure</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#mod1-summary">Mod 1: Summary</a>
+                                <ul>
+                                    <li><a href="#mod1-summary-description">Description</a></li>
+                                    <li><a href="#basic-html">Basic HTML</a></li>
+                                    <li><a href="#html-attributes-2">HTML Attributes</a></li>
+                                    <li><a href="#more-html">More HTML</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href="#mod-2">Intro to the Dom & CSS</a>
+                        <ul>
+                            <li><a href="#mod2-lesson1">Lesson 1: The DOM & The Web</a>
+                                <ul>
+                                    <li><a href="#mod2-intro">Intro</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#mod2-lesson2">Lesson 2: Introduction to the DOM</a>
+                                <ul>
+                                    <li><a href="#mod2-thedom">The DOM</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#summary-thedom-web">The DOM Summary</a></li>
+                            <li><a href="#mod2-lesson4">Lesson 4: Introduction to CSS</a>
+                                <ul>
+                                    <li><a href="#lesson4-css">CSS</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#css-summary">CSS Summary</a>
+                                <ul>
+                                    <li><a href="#what-is-css">What is CSS?</a></li>
+                                    <li><a href="#how-does-css">How does CSS "control" HTML?</a></li>
+                                    <li><a href="#mod2-css-vocabulary">CSS Vocabulary</a></li>
+                                    <li><a href="#mod2-csss-summary">Style</a></li>
+                                    <li><a href="#select-class-mod2-lesson4">Selecting a class</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#cont-css">Cont. of CSS</a>
+                                <ul>
+                                    <li><a href="#mod2-box-model">The Box Model</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#box-sizing">Box Sizing</a>
+                                <ul>
+                                    <li><a href="#mod2-lesson4-box-sizing">Box Sizing</a></li>
+                                    <li><a href="#mod2-lesson4-box-positioning">Box Positioning</a></li>
+                                    <li><a href="#mod2-lesson4-code-test">Code, Test, Refined</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="mod-1">
+            <h1 class="title-mod1">Mod 1: Intro to the Web & HTML</h1>  
+            <div>
+                <h3 class="mod1-lesson3">Lesson 3: Intro to the Web</h3>
+                <div class="intro">
+                    <b class="title-intro">Intro</b>
+                    <div class="intro-paragraph">
+                        <p>The Web(What it is, What it looks like, How major pieces fit together)</p>
+                        <p>HTML(Main document type of the web)</p>
+                        <p>URLS(How you refer to documents on the web)</p>
+                        <p>HTTP(The protocol that unites the web, that the web runs on)</p>
+                        <p>Web Applications(What they are, how they fit into the big picture)</p>
+                    </div>
+                </div>
+                
+                <div class="the-web">
+                    <b class="title-the-web">The Web</b>
+                    <div class="the-web-paragraph">
+                        <p>-World Wide Web is a collection of HTML documents></p>
+                        <p>-These documents are made of HTML(Hyper Text Mark-Up Language)</p>
+                        <p>-The links between the pages are called Hyperlinks (or Links)</p>
+                        <p>-The web was created in the early 1990's and has 30 Billion pages</p>
+                    </div>
+                </div>
+                                
+                <div class="file-types">
+                    <b>Types of files that can be found on the web are:</b>
+                    <ul>
+                        <li>Plain text</li>
+                        <li>HTML</li>
+                        <li>Images</li>
+                        <li>Videos</li>
+                        <li>Music</li>
+                    </ul>
+                </div>
+                <div>
+                    
+                </div>
+                <div class="web-components">
+                    <b>Components of the Web</b>
+                    <p>Your browser makes requests via the Internet to servers.</p>
+                    <p>The requests are using a protocol called HTTP(Hyper-Text Transfer Protocol)</p>
+                    <p>And the servers respond with files that the browser displays.</p>
+                    <p>These servers are used to host files intead of browsing the files</p>
+                    <p>The HTTP protocol is a protocol the browser uses to communicate with the servers</p>
+            
+                    <ul>
+                        <li><b>HTTP</b><p>-The main protocol of the web</p></li>
+                        <li><b>Servers</b><p>-Computers that host the files that make up the web</p></li>
+                        <li><b>Internet</b><p>-The world's largest computer network</p></li>
+                        <li><b>Browser</b><p>-A program that runs on your computer to display files found on the web</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mod1-lesson4">
+                <h3 class="lesson4-intro">Lesson 4: Intro to HTML</h3>
+                <div class="html">
+                    <b>HTML</b>
+                    <p>Hyper-Text Mark-Up Language</p>
+                    <p>HTML is made of content(Content you see)</p>
+                    <p>Mark-up (what it looks like)</p>
+                    <p>References to other documents (i.e. images, videos, etc)</p>
+                    <p>Links to other pages</p>
+            
+                    <p>-Html Mark-up is made up of tags</p>
+                    <p>-Tags are structure like (&lt;opening tag&gt; content &lt;/closing tag&gt; and everything from the opening and closing tag is the element</p>
+                    <p><b>-Bold tag</b>&lt;b&gt;&lt;/b&gt;stands for bold: <b>&lt;b&gt;anything between the bold tag appears bold&lt;/b&gt;</b></p>
+                    <p>-<b>Em tag</b>&lt;em&gt;&lt;/em&gt;-stands for emphasis-Makes Italics:<b>&lt;em&gt;<em>anything between the bold tag appears italicised</em>&lt;em&gt;</b></p>
+                </div>
+                
+                <div class="ambiguity">
+                    <b>Ambiguity</b>
+                    <p>-Ambiguity is being open to </p>
+                    <p>-Computers are "stupid" in the sense that Computers can't make a decision or and inference unless you tell it to. </p>
+                    <p>-Programming languages are designed to limit abiguity</p>    
+                </div>
+                
+                <div class="missing-colon">
+                    <b>Missing a closing tag</b>
+                    <p>-If you miss a closing tag everything after the opening tag will be effected by the elements commands or properties</p>
+                    <p>-I.E hello my namd is <b> Don SMitty Weberben Jegermen Jetsen</b></p>
+                </div>
+                
+                <div class="html-attributes">
+                    <b>HTML Attributes</b>
+                    <p>-&lt;tag attr="Value"&gt; content&lt;/tag&gt;</p>
+                    <p>-Attributes have a value</p>
+                    <p>-A tag can have multiple attributes</p>
+                    <p>-I.E achor tag-<a> anchors are for making links</a></p>
+                    <p>-I.E href is an attribute I.E <a href="htttps://www.facebook.com">blah</a></p>    
+                </div>
+                
+                <div class="image">
+                    <b>Image</b>
+                    <p>-Image tag-&lt;img&gt;</p>
+                    <p>-Image tag has an attribute called src which stands for source</p>
+                    <p>-I.E <img src="http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg" alt="Image of Heart1"></p>
+                    <p>-Image tags also have an attribute called alt(alternate)- which is meant to replace an image that has a broken link with text</p>
+                    <p>-I.E <img src="http://www.loveimagesdownload.com/wp-content/uploads/2016/08/love-wallpapers-23.jpg" alt="Image of a Heart2"></p>
+                    <p>-Images don't have a closing tag</p>
+                    <p>-Tags with no closing tags are called Void Tags, Void tags have no content, because they have no content, they don't need a closing tag.</p>
+                    
+                    <p>-It's Okay to forget. There are resources such as w3 school and MDN.</p>
+                </div>
+        
+                <div class="line-breaks">
+                    <b>Line Breaks</b>
+                    <p>-If you want text that is too long, you use a line break &lt;br&gt; tag like this is how you make <br> a line break tage</p>
+                    <p><b>The&lt;br&gt;</b>tag is a Void Tag</p>
+                    <p>-Another way to make line breaks are to use &lt;p&gt;Multiple&lt;/p&gt; &lt;p&gt;Tags&lt;/p&gt;</p>
+                    <p>-<b>The &lt;p&gt;&lt;</b>tag stands for Paragraph. </p>
+                    <p>-Between the opening and closing tag, it will render as a paragraph</p>
+                </div>
+        
+                <div class="inline-block">
+                    <b>Inline vs Block Elements</b>
+                    <p>-Why do we have two different ways of making line breaks?</p>
+                    <p><b>Inline</b><b>The &lt;br&gt;</b>tag is just ending a line and moving to the next line</p>
+                    <p><b>Block</b><b>The &lt;p&gt;&lt;/p&gt;</b>tag is being wrapped by an invisible box that can have a height & a width</p>
+                    <p><b>Inline elements:</b>&lt;/b&gt;,&lt;br&gt;, &lt;em&gt;&lt;/em&gt;, &lt;img&gt;</p>
+                    <p><b>Block element:</b>&lt;p&gt;&lt;/p&gt;</p>
+                    
+                    <p><b>container elements: elements that do nothing, buthave content inside them.</b></p>
+                </div>    
+                
+                <div class="span-div">
+                    <b>Span & Div elements</b>
+                    
+                    <p><b>&lt;span&gt;&lt;/span&gt;</b>-Is an inline element</p>
+                    <p><b>&lt;div&gt;&lt;/div&gt;</b>-Is a block element</p>    
+                </div>
+                
+                <div class="html-structure">
+                    <b>Html Structure</b>
+                
+                    <p>-<b>&lt;!DOCTYPE html&gt;
+                        &lt;html&gt;(wraps body and head)
+                            &lt;head&gt;(contains metadata)
+                                &lt;title&gt;(appears in top of browser window)&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                                (displays content that will be seen in the web page)
+                            &lt;/body&gt;
+                        &lt;/html&gt;</b></p>
+                    <p>-writing code that people can easily read is a very important aspect to structure of an html document</p>
+                </div>        
+            </div>
+            <div class="mod1-summary">
+                <h3 class="mod1-title-summary">Mod 1: Summary</h3>
+                <div class="mod1-summary-description">
+                    <b>Summary Description</b>
+                
+                    <p><b>--You've learned a lot so far! Let's recap some of the big ideas:</b></p>
+                    
+                    <p><b>--The World Wide Web</b></p>
+                    <p>-The web is composed largely of HTML documents. 
+                    HTML stands for HyperText Markup Language and is the language 
+                    the browsers use to interpret web pages. The components of the web include the client (your computer and browser), the Internet, and servers. The client and servers interact through something called the Hypertext Transfer Protocol (HTTP).</p>
+                </div>
+                
+                <div class="basic-html">
+                    <b>--Basic HTML Elements</b>
+                    <p>-HTML elements are what we use to tell a web browser how to display content on a web page.</p>
+                    <p>-Most HTML elements consist of an opening and a closing tag with some content between them.</p> 
+                    
+                    <p><b>&lt;b&gt;text&lt;/b&gt;</b>-Makes the 'text' content bold</p> 
+                    <p><b>&lt;em&gt;text&lt;/em&gt;</b>Makes the 'text' content italic</p> 
+                </div>
+                
+                <div class="html-attributes-2">
+                    <b>--HTML Attributes</b>
+                    <p>-Some elements accept additional values called attributes in their opening tags. Attributes provide additional information to the browser. For example, the anchor tag takes an attribute called href that defines a URL to link to.</p>
+                    
+                    <p><b>&lt;a href="url"&gt;link&lt;/a&gt;</b>-Creates a hyperlink to the href attribute value url and names it link</p>
+                    <p><b>&lt;img src="url" alt="text"&gt;</b>-Displays the image hosted at the src attribute value "url" (this can also be a path to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.</p>    
+                </div>
+                
+                <div class="more-html">
+                    <b>--More HTML Elements</b>
+                    <p>-<b>&lt;p&gt;text&lt;/p&gt;</b>Defines a paragraph. The content of the &lt;p&gt; element is in a "box"</p> 
+                    <p>-<b>&lt;br&gt;</b> Creates a line break</p> 
+                    <p>-<b>&lt;div&gt;content&lt;/div&gt;</b> Creates a "box" container element</p> 
+                    <p>-<b>&lt;span&gt;content&lt;/span&gt;</b>Creates an "inline" container element</p>   
+                </div>
+            </div>
+        </div>
+        <div class="mod2">
+            <h1 class="title-mod2">Mod 2: Introduction to the Dom & CSS</h1>
+            <div class="mod2-lesson1">
+                <h3 class="lesson1-title-mod2">Lesson 1: The DOM & The Web</h3>
+                <div class="mod2-intro">
+                    <b>Intro</b>
+                    <p>HTML is the structure of the webpage</p>
+                    <p>CSS is the style of your page(colors, siz of font, etc.</p>
+                    <p> Javascript is the functionality of your webpage</p>
+                    <p>There are rules to how websites behave</p>
+                
+                    <p>Google's Developer tools allows you to take a peak at a webpage's HTML & CSS code</p>
+                    <p>When people talk about the DOM(Document Object Model)</p>
+                </div>
+            </div>
+            <div class="mod2-lesson2">
+                <h3 class="title-lesson2">Lesson 2: The DOM</h3>    
+                <div class="mod2-thedom">
+                    <b>*The DOM*</b>
+                    <p><b>HTML</b> is the language of web</p>
+                    <p>HTML has specific rules & Syntax</p>
+                    <p>The browser turns the tags into elements that form a tree in <b>the DOM</b></p>
+                    <p>The browser knows how to turn the tags into an elemnt in the form of a tree because of <b>the DOM</b></p>
+                    <p><b>The DOM</b> stand for <b>Document Object Model</b></p>
+                    <p>Which is a standard convention for representing & interacting</p>
+                    <p> Each html tag creates an element in the dom which the browsers uses to display the page</p>
+                    <p><b>CSS</b> allows you to use a specific rules and syntax to change how elements look on a page</p>
+                    <p>Tieing structure and style together, the HTML document can provide the browser on what style to use and where to find it</p>
+                    <p>Thinking of everything on a web page in terms of boxes makes development easier</p>
+                    <p>There is a grid on every webpage that makes sure everything is properly align</p>
+                </div>
+            </div>
+            <div class="summary-thedom-world">
+                <b class="title-summary-thedom-mod2">Summary</b>  
+                <div class="summary-text-mod2">
+                    <ol>
+                        <li>In these lessons I learned about the web and how it works</li>
+                        <li>I learned about http and how it connects servers to the web browser</li>
+                        <li>I learned about Inline vs Block</li>
+                        <li>I learned about how the browser views everything thats on a web page</li>
+                        <li>I learned about CSS and how it communicates with the browser</li>
+                        <li>I learned about how HTML structures the web page</li>
+                    </ol> 
+                </div>
+            </div>
+            <div class="mod2-lesson4">
+                <h3 class="lesson4-css">Lesson 4: Introduction to CSS</h3>
+                <div class="css-lesson4-mod2">
+                    <b>CSS</b>
+                    <p>Cascading Style Sheets</p>
+                    <p>Cascading-The most specific Rules Apply</p>
+                    <p>browsers use default stylesheets to determine how to display HTML elements</p>
+                    <p>Because these rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as normalize.css.</p>
+                </div>
+                
+                <div class="css-summary">
+                    <h3 class="title-css-summary">CSS Summary</h3>
+                    <div class="css-summary-body">
+                        <b class="what-is-css">What is CSS?</b>
+                        <p>CSS is code written to control the "style" of HTML elements.</p>
+    
+    
+                        <b class="how-does-css">How does CSS "control" HTML?</b>
+                        <p>If you want to write CSS that makes all h1 elements have a black background and white text, you would write:</p>
+                        
+                        <b class="mod2-css-vocabulary">CSS Vocabulary</b>
+                        <p><b>CSS:</b> Cascading Style Sheets.
+                        
+                        <b class="mod2-csss-summary">Style:</b> This word can refer to many things and so it can be confusing. It can refer to:
+                        <ul>
+                            <li>The HTML element.</li>
+                            <li>The HTML attribute.</li>
+                            <li>The general look of a web page. For example: "I like that site's style."</li>
+                            <li>A verb. For example: "I'm making progress on my page. The structure is all done but now I have to style it."</li>
+                        </ul>
+                        
+                        
+                        <p><b>Rule:</b>A line of CSS code describing the value that a certain attribute should take.</p>
+                        <p><b>Property:</b> The property you want to change.</p>
+                        <p><b>Value:</b> The value that you want to assign to the attribute.</p>
+                        <p><b>Selector:</b> The name that you use to in order to target the elements that are assigned to a class or id attribute in the HTML.</p>
+                        <p><b>Class:</b> A class refers to a group of elements that can be styled together. Class names should not contain periods or any other punctuation marks such as class="1.1"</p>
+                        <p><b>ID:</b> ID's are unique identifiers that uniquely identifies an element in HTML.</p>
+                        
+                        
+                        <b class="select-class-mod2-lesson4">Selecting by class</b>
+                        <p>In the example above, we set the background-color of every h1 to black. If we only want to add style to certain h1s, we can use class selectors. Try copying the following code into a new HTML file in your text editor to see how this works. We should see a traffic light. Note how in the style element we refer to an HTML element's class name by writing .class-name. Also note how we can apply rules to all divs or just certain divs by using the appropriate selector.</p>
+                        
+                        <b>How do I include CSS Styling in my web page?</b>
+                        <p>Method 1: Write CSS in the &lt;head&gt; of your HTML using &lt;style&gt;</p>
+                        <p>Method 2: Link your HTML to a separate CSS file</p>
+                        <p>Method 3: Write your style inline with your HTML. This is generally a very bad idea because it leads to lots of repeated code. But you may see code that uses this method so it's good to be familiar with it. . Ex. &lt;div style="background-color: red; color: white"&gt;</p>
+                    </div>
+                </div>
+                <div class="cont-css">
+                    <h3 class="cont-of-css-title">Cont. of CSS</h3>
+                    <div class="cont-css-body">
+                        <b class="mod2-box-model">The Box Model</b>
+                        <p><b>Content:</b>The very center, the text or image that appears on the website</p>
+                        <p><b>Padding:</b>Clears the area around the content</p>
+                        <p><b>Border:</b>Goes around the Content and Padding</p>
+                        <p><b>Margin:</b>The area around the border</p>
+                        <p>By default the size of the element is equal to the sum of border, padding, and content width</p>
+                        <p>CSS style box-sizing: border box-makes the calculation of the element size include both the border and padding, so its easier to make layouts. Margin is not included.</p>
+                        <p>In order for browsers to be able to display new styles, you have to include broswer secific prefixes</p>
+                        <ul>
+                            <li>-webkit</li>
+                            <li>-moz</li>
+                            <li>-ms</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-sizing">
+                    <h3 class="box-size-title">Box Sizing and Positioning Summary</h3>
+                    <div class="box-sizing-body">
+                        <b class="mod2-lesson4-box-sizing">Box Sizing</b>
+                        <p>There are four main points that Jessica addressed about box sizing.</p>
+                        <p>HTML elements are boxes and each box has 4 components.</p>
+                        <p>Because there are so many components to each box, it can often be hard to get the size of a box just right.</p>  
+                        <p>There are two techniques you can use to help deal with sizing issues:</p>
+                        <ul>
+                            <li>Set sizes in terms of percentages rather than pixels.</li>
+                            <li>Set the box-sizing attribute to border-box for every element</li>
+                        </ul>
+                        <p>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.</p>
+                        
+                        <b class="mod2-lesson4-box-positioning">Box Positioning</b>
+                        <p>Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.</p>
+                        <p>Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.</p>
+                        
+                        <b class="mod2-lesson4-code-test">Code, Test, Refine</b>
+                        <p>Write some <b>CODE</b>,<b> TEST</b> it, <b> Refine</b> it.</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
